@@ -12,10 +12,10 @@ FROM amazoncorretto:17-alpine-jdk
 #WORKDIR /app
 
 # Copiar el archivo JAR desde la etapa de construcción
-COPY /target/mutant-detector-0.0.1-SNAPSHOT.jar app.jar
+COPY build/libs/mutant-detector-0.0.1-SNAPSHOT.jar app.jar
 
 # Exponer el puerto en el que correrá tu aplicación
 #EXPOSE 8080
 
 # Comando para ejecutar la aplicación
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "/app.jar"]
