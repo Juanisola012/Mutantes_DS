@@ -1,8 +1,14 @@
---------------------------DATOS-----------------------------------
+DATOS:
 Juan Ignacio Sola Chambella
 3K10
 Legajo 46132
--------------------------- INSTRUCCIONES ------------------------------------
+
+
+
+
+
+
+INSTRUCCIONES :
 La aplicacion se encuentra desplegada en render aunque deje las dependencias en application propperties tanto de MySQL y de H2 por si es necesario probarla local, ya que la render tiene periodo de vencimiento al ser gratuita,
 De igual manera los endpoints de Render son los siguientes:
 
@@ -33,7 +39,7 @@ La respuesta deberia ser similar al siguiente ejemplo
     "ratio": 0.0
  }
 
- ---------------------------------- DOCUMENTACION -----------------------------
+DOCUMENTACION :
 
 El diagrama de arquitectura y el flujo se encuentran en formato PDF en la carpeta principal del repositorio con los siguientes nombres:
 DIAGRAMA ARQ MUTANTES.pdf
